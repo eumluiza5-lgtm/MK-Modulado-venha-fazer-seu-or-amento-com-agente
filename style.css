@@ -526,6 +526,38 @@ main {
     max-width: 800px;
     border-radius: 0 8px 8px 0;
     display: flex;
+
+
+    /* ================= BOTÃO INSTAGRAM ================= */
+.instagram-section {
+    background: linear-gradient(135deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+    padding: 25px 0;
+    text-align: center;
+}
+
+.btn-instagram {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    background: white;
+    color: #e1306c;
+    text-decoration: none;
+    padding: 15px 35px;
+    border-radius: 50px;
+    font-weight: 700;
+    font-size: 16px;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+.btn-instagram:hover {
+    transform: translateY(-3px) scale(1.02);
+    box-shadow: 0 8px 25px rgba(0,0,0,0.3);
+}
+
+.btn-instagram i {
+    font-size: 24px;
+}
     align-items: flex-start;
     gap: 15px;
 }
@@ -541,4 +573,5 @@ main {
     color: #555;
     font-size: 13px;
     line-height: 1.6;
+
 }
